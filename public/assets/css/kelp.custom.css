@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'Century Gothic';
+	src: url("../fonts/centurygothic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+	font-display: fallback;
+}
+@font-face {
+	font-family: 'Avenir';
+	src: url("../fonts/AvenirLTProLight.otf") format("opentype");
+	font-style: normal;
+	font-weight: normal;
+	font-display: fallback;
+}
+
+@layer kelp.theme {
+	:root {
+		--font-primary: "Avenir", sans-serif;
+		--font-secondary: "Times New Roman", serif;
+	}
+}
+/* @layer kelp.tokens {
+	.secondary:hover {
+		background-color: orange;
+	}
+}
+@layer kelp.core {
+	.btn {
+		background-color: red;
+	}
+} */

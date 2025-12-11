@@ -1,0 +1,10 @@
+TO-DOs....
+
+**** Districts Map  *****
+-make polygons inactive after clicking twice
+
+
+---- 
+*** Hover map (version 2 map) *****
+- smooth/calm down hover pop-up effect 
+- test and fix responsive mode
